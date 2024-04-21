@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: ":: Francesco Vozza's Home ::"
+title: ".:: Francesco Vozza's Home ::"
 # subtitle: "No non-sense, pragmatic manager with a track record of building highly motivated teams delivering high quality software and services."
 email:
 description: >- # this means to ignore newlines until "baseurl:"
@@ -56,6 +56,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-pdf-embed
 
 author:
   name   : "Francesco Vozza"
@@ -72,11 +73,14 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/fvozza"
 
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+# footer:
+#   links:
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/"
+
+atom_feed:
+  hide: true
 
 defaults:
   # _posts
@@ -87,9 +91,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
-      related: true
+      comments: false
+      share: false
+      related: false
       show_date: true
   # _pages
   - scope:

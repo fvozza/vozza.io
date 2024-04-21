@@ -68,7 +68,7 @@ author:
       url: "https://blog.vozza.io"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin" # https://fontawesome.com/icons
-      url: :"https://www.linkedin.com/in/francescovozza/"
+      url: "https://www.linkedin.com/in/francescovozza/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/fvozza"
